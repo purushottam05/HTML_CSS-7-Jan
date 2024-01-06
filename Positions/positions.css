@@ -1,0 +1,39 @@
+div{
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    display:inline-block;
+}
+
+#two{
+    background-color:yellow;
+}
+
+#static #two{
+    position:static;
+    top:100px;
+
+}
+
+#relative #two{
+    position:relative;
+    top:50px;
+    left:50px;
+}
+
+#absolute{
+    position:relative;
+}
+
+#absolute #two{
+    position:absolute;
+    top:0px;
+    /* right:20p;x */
+    
+}
+
+#fixed #two{
+    position:fixed;
+    top:0;
+
+}
