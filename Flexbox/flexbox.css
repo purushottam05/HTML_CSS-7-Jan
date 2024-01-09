@@ -1,0 +1,17 @@
+#container{
+    background-color:#14213d;
+    width:90%;
+    height:1200px;
+    margin:0 , auto;
+    border: 5px solid #14213d;
+    display:flex;
+    flex-direction: row; /* row is default*/
+    justify-content: center;
+    flex-wrap: wrap; 
+    
+}
+
+#container div{
+    width:600px;
+    height:200px;
+}
