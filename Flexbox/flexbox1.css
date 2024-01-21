@@ -1,0 +1,32 @@
+.flexbox-container{
+    display:flex;
+    
+     flex-wrap:wrap;
+     /* justify-content:space-evenly;
+    
+    align-items:flex-start;   */
+    
+
+}
+
+.flexbox-item{
+    width:200px;
+    margin:10px;
+    border:3px solid black;
+    background-color:silver;
+
+}
+
+.item-1{
+    min-height:100px;
+    flex-shrink:2;
+}
+
+.item-2{
+    min-height:200px;
+}
+
+.item-3{
+    min-height:300px;
+    flex-grow:1;
+}

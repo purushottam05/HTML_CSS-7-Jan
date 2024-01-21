@@ -1,0 +1,21 @@
+#name:focus{
+    background-color:green;
+}
+
+#mail:focus{
+    background-color:green;
+}
+#password:focus{
+    background-color:green;
+}
+#dropdown:focus{
+    background-color:green;
+}
+#button:hover{
+    width:200px;
+    height:100px;
+    text-transform:uppercase;
+    
+}
+
+
